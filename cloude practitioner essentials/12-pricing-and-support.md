@@ -46,7 +46,7 @@ The Cost Management Console includes tools to:
 
 # Consolidating Bills
 
-The firm get a consolidated bil for all the accounts within the organization which is itemized for unit cost and usage of resources.
+The firm gets a consolidated bil for all the accounts within the organization which is itemized for unit cost and usage of resources.
 
 # AWS Budgets
 
@@ -78,3 +78,5 @@ Four levels:
 **TAM**: Technical Account Managers are direct contacts able to advise on the five pillars with a focus on supporting success.
 
 # AWS Market Place
+
+![Screenshot from 2021-07-06 06-39-25](https://user-images.githubusercontent.com/73107656/124547973-ee1d0400-de24-11eb-9022-1255695d50cf.png)
