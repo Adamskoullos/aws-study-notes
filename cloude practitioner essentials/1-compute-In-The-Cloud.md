@@ -17,8 +17,8 @@ Each EC2 instance is a virtual server and can be configured by the following fac
 
 # EC2 Pricing
 
-1. **On-Demand**
-2. **Savings Plans**:
+1. **On-Demand**:
+2. **Savings Plans**: EC2, Lambda, Fargate
    - savings up to 72%
    - 1 & 3 year term
 3. **Reserved Instances**:

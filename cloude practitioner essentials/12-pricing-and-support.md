@@ -9,7 +9,7 @@ The free tier has three categories:
 # Pricing Concepts
 
 1. Pay for what you use
-2. Pay less when you reserve
+2. Pay less when you reserve: **Commit to 1 or 3 year contract for a specific usage and get a lower $/hour price**
 3. Volume based discounts
 
 # AWS Lambda
@@ -80,3 +80,68 @@ Four levels:
 # AWS Market Place
 
 ![Screenshot from 2021-07-06 06-39-25](https://user-images.githubusercontent.com/73107656/124547973-ee1d0400-de24-11eb-9022-1255695d50cf.png)
+
+---
+
+# Always Free
+
+**DynamoDB**: 200 million requests per month, 25 write cap units, 25 read cap units, 25 gb storage
+
+**S3 Glacier**: 10 gb storage - using the Glacier api
+
+**AWS Lambda**: 1 million requests per month and up to 3.2 million seconds of compute time per month
+
+# 12 Months Free
+
+**EC2**: 750 hrs of linux t3.micro
+
+**S3**: 5 gb, 20,000 GET, 2,000 PUT
+
+**RDS**: 750 hrs
+
+**CloudFront**: 50gb transfer out, 2,000,000 http/https requests per month
+
+# Estimating EC2 costs
+
+- Clock hours of server time
+- Instance type
+- Pricing model
+- Number of instances
+- Load balancing
+- Detailed monitoring
+- EC2 auto scaling
+- Elastic IP addresses
+- Licensing
+
+# Lambda
+
+- Request pricing:
+
+  - **Free tier**:1 million p/m, 400,000 gb-seconds compute time
+  - $0.20 per million requests thereafter
+
+- Duration pricing:
+  - **Free tier**: 400,000 GB-seconds per month free, up to 3.2 million seconds of compute time
+  - $0.00001667 for every GB-second used thereafter
+
+# EBS - Elastic Block Store
+
+- SSD: optimized for IOPS
+
+- HDD: optimized for throughput
+
+Pricing factors:
+
+1. Volumes
+2. Snapshots
+3. Data Transfer (outbound)
+
+# S3
+
+Pricing factors:
+
+1. Storage class
+2. Storage volume
+3. Requests and Data retrievals
+4. Data transfer out
+5. Management features
