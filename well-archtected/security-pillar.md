@@ -62,3 +62,20 @@
 
 - Use Edge services: Cloudfront, WAF
 - Divide the VPC into layers using subnets
+
+# Data Protection
+
+- AWS Macey for classifying data
+- KMS for access keys
+- Encrypt at rest: KMS
+- Encryption in transit: CloudFront, ELB, AWS Certificate Manager ACM
+
+> Managed service include encryption
+
+# Incident Response
+
+Have processes and provisions in place to respond to incidents.
+
+- Eay way to gain access
+- Have the correct pre-deployed tools
+- Undertake Game Days to test response
