@@ -30,7 +30,7 @@ Properties:
         "type": "metric",
         "properties": {
           "metrics": [
-            [ "AWS/AmplifyHosting", "Requests", "App", "doze4hywk4v4l" ]
+            [ "AWS/AmplifyHosting", "Requests", "App", "acc-omitted" ]
           ],
           "view": "timeSeries",
           "stacked": false,
@@ -49,7 +49,7 @@ Properties:
           "view": "timeSeries",
           "stacked": false,
           "metrics": [
-            [ "AWS/EBS", "VolumeReadOps", "VolumeId", "vol-01522b4daed74a607" ]
+            [ "AWS/EBS", "VolumeReadOps", "VolumeId", "vol-omitted" ]
           ],
           "region": "eu-west-2"
         }
@@ -64,7 +64,7 @@ Properties:
           "view": "timeSeries",
           "stacked": false,
           "metrics": [
-            [ "AWS/EBS", "VolumeWriteOps", "VolumeId", "vol-00b1faa2ee3d91271" ]
+            [ "AWS/EBS", "VolumeWriteOps", "VolumeId", "vol-omitted" ]
           ],
           "region": "eu-west-2"
         }
@@ -79,7 +79,7 @@ Properties:
           "view": "timeSeries",
           "stacked": false,
           "metrics": [
-            [ "AWS/S3", "BucketSizeBytes", "StorageType", "StandardStorage", "BucketName", "analytics.db.fullfibre.co", { "period": 86400 } ]
+            [ "AWS/S3", "BucketSizeBytes", "StorageType", "StandardStorage", "BucketName", "db-omitted", { "period": 86400 } ]
           ],
           "region": "eu-west-2"
         }
@@ -94,7 +94,7 @@ Properties:
           "view": "timeSeries",
           "stacked": false,
           "metrics": [
-            [ "AWS/AmplifyHosting", "5xxErrors", "App", "doze4hywk4v4l" ]
+            [ "AWS/AmplifyHosting", "5xxErrors", "App", "acc-omitted" ]
           ],
           "region": "eu-west-2"
         }
@@ -109,7 +109,7 @@ Properties:
           "view": "timeSeries",
           "stacked": false,
           "metrics": [
-            [ "AWS/AmplifyHosting", "4xxErrors", "App", "doze4hywk4v4l" ]
+            [ "AWS/AmplifyHosting", "4xxErrors", "App", "acc-omitted" ]
           ],
           "region": "eu-west-2"
         }
