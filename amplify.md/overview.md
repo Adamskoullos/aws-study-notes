@@ -60,6 +60,24 @@ Amplify can quickly create new instances.
 
 [AWS Amplify Monitoring](https://docs.aws.amazon.com/amplify/latest/userguide/access-logs.html) using CloudWatch
 
+Amplify `Monitoring` uses `CloudWatch` under the hood which includes the following features:
+
+1. Collection of metrics from `resources`, `applications` and `services`
+2. Monitor and set alerts via the dashboard
+3. Automate actions when events are triggered
+4. Historical analysis of metric data
+
+Through Amplify we have access :
+
+**Note**: These metrics are aggregated at one minute intervals.
+
+- **Requests** >
+- **BytesDownloaded** >
+- **BytesUploaded** >
+- **4XXErrors** >
+- **5xxErrors** >
+- **Latency** >
+
 ---
 
 ## Pinpoint
